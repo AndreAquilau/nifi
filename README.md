@@ -11,7 +11,7 @@ before - nifi.remote.input.secure=true
 after - nifi.remote.input.secure=false
 ```
 
-**_ step 1 _**
+**step 1**
 
 ```bash
 docker compose exec --user="root" nifi bash
@@ -23,7 +23,7 @@ apt install vim
 exit
 ```
 
-**_ step 2 _**
+**step 2**
 
 ```bash
 docker compose exec nifi bash
